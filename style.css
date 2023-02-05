@@ -1,0 +1,16 @@
+.animate-on-scroll {
+    /* Définit une opacité initiale de 0 pour les éléments */
+    opacity: 0;
+    /* Définit une transition d'opacité d'une seconde */
+    transition: opacity 1s;
+}
+
+.animate-on-scroll.is-visible {
+    /* Définit une opacité de 1 pour les éléments avec la classe 'is-visible' */
+    opacity: 1;
+}
+
+/* Ensemble, ces styles permettent aux éléments d'être rendus
+    transparents et de devenir progressivement plus opaques en 1 seconde
+    lorsque la classe 'is-visible' est ajoutée. Cela peut créer un effet
+    d'animation pour les éléments. */
